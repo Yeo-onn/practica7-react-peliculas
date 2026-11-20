@@ -1,0 +1,40 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 18px 24px;
+  background: #0c0e13;
+  border-bottom: 2px solid var(--accent);
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.link-no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.message {
+  text-align: center;
+  color: var(--muted);
+  font-size: 1.1rem;
+  margin-top: 40px;
+}
+
+.message.error { color: #ff7b7b; }
