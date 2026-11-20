@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 16px;
+  background: #f1f1f1;
+  color: #222;
+  border-top: 4px solid var(--accent);
+}
+
+.footer-escudo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.footer-info p {
+  margin: 3px 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
