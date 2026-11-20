@@ -77,11 +77,10 @@ Las imágenes se obtienen de `https://image.tmdb.org/t/p/w500` + el `poster_path
 - **Detalle:** al dar clic en una tarjeta se muestra el póster grande, el título, los géneros, el año, la calificación y la descripción, con un enlace para volver al listado.
 - Si la API falla o no hay póster, la app muestra un mensaje de error o una imagen de respaldo.
 
-(Agregar aquí las capturas guardadas en la carpeta `capturas/`, por ejemplo: `![Página principal](capturas/principal.png)`)
 
 ## Despliegue
-- GitHub: https://github.com/TU_USUARIO/practica7-react-peliculas
-- Netlify: https://TU_SITIO.netlify.app
+- GitHub: https://github.com/Yeo-onn/practica7-react-peliculas
+- Netlify: https://practica7-react-peliculas-arfn.netlify.app
 
 ## Conclusiones
 Con esta práctica aprendí a crear un proyecto con Vite y React, a dividir la aplicación en componentes y páginas, a navegar entre vistas con React Router y a consumir una API externa con `fetch` y los hooks `useState` y `useEffect`. También practiqué el flujo básico de Git y GitHub (clonar, hacer commits con mensajes claros y subir cambios), el uso de variables de entorno para no exponer la API key y el despliegue de la aplicación en Netlify, incluyendo el archivo `_redirects` para que funcionen las rutas.
